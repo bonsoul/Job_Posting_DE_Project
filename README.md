@@ -9,11 +9,8 @@ This project pulls a dataset of data science job postings, warehouses it, and ru
 
 
 ## Architecture
+![Project Architecture](https://raw.githubusercontent.com/bonsoul/Job_Posting_DE_Project/main/Images/DE%20Project.png)
 
-```
-Data Warehouse  →  SQL Analytics  →  Data Insights
-   (DuckDB)         (SQL scripts)     (findings)
-```
 
 **1. Data Warehouse**
 Job postings data (company info, postings, skills, and skill-job mappings) is loaded into **DuckDB**, used here as a lightweight OLAP engine — fast columnar queries without spinning up a full server. The data was also mirrored into **PostgreSQL** for querying via pgAdmin/VS Code, using DuckDB's `postgres` extension to move data directly between the two.
