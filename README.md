@@ -1,11 +1,10 @@
-# Data Science Job Postings — SQL Analytics Project
+# Data Science Job Postings — SQL Analytics DE Project
 
 Analyzing real-world data job postings to answer a simple question: **what skills should you actually learn to land a high-paying data role?**
 
 ## Overview
 
 This project pulls a dataset of data science job postings, warehouses it, and runs SQL analysis to surface skill demand and pay trends — the kind of insight job seekers and career switchers can use to prioritize what to learn next.
-
 
 
 ## Architecture
